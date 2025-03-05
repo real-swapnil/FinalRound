@@ -1,0 +1,42 @@
+/* Navbar Background */
+.custom-navbar {
+  background: transparent;
+  padding: 15px 0;
+}
+
+/* Center Align Navbar */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Navbar Links */
+.nav-links .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links .nav-link:hover {
+  color: #6c63ff; /* Hover effect */
+}
+
+/* Active Link */
+.nav-links .nav-link.active {
+  color: #6c63ff;
+  font-weight: bold;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-links .nav-link {
+    margin: 10px 0;
+  }
+}

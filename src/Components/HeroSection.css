@@ -1,0 +1,66 @@
+/* Background Styling */
+.hero-section {
+  position: relative;
+  padding: 80px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.banner-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -2;
+}
+
+.bg-shape {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  max-width: 418px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+/* Typography */
+.hero-title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #333145;
+}
+
+.hero-text {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Buttons */
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.primary-btn {
+  background-color: #7166f5;
+  color: white;
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.video-btn {
+  background: transparent;
+  border: 2px solid #7166f5;
+  color: #7166f5;
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.video-btn .play-icon {
+  font-size: 14px;
+  margin-right: 5px;
+}

@@ -1,0 +1,54 @@
+/* Top bar container */
+.topbar {
+  background-color: #333145;
+  height: auto;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  padding: 5px 20px;
+}
+
+/* Circular icons with perfect alignment */
+.icon-circle {
+  width: 36px; /* Increased for better visibility */
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.15); /* Adjusted transparency */
+  transition: background 0.3s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+}
+
+.icon-circle:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.icon-circle svg {
+  color: white;
+  font-size: 16px; /* Slightly larger for better visibility */
+}
+
+/* Adjust spacing between icons */
+.icon-group {
+  display: flex;
+  gap: 12px; /* Ensures even spacing */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .topbar {
+    padding: 8px 10px;
+    text-align: center;
+  }
+
+  .icon-circle {
+    width: 32px; /* Slightly smaller on mobile */
+    height: 32px;
+  }
+
+  .icon-group {
+    gap: 10px; /* Reduce spacing for mobile */
+  }
+}
